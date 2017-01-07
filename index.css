@@ -69,7 +69,7 @@ nav{
 }
 .nav>li{height:100%;text-transform:uppercase;font-weight:bold;letter-spacing:2px;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;
 }
-.nav>li a{color:#ffffff;padding:10px 20px;
+.nav>li a{color:#000000;padding:10px 20px;
 }
 .nav>li a:hover{color:#000000;background:#4c4cff;box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
@@ -209,6 +209,4 @@ hr.star-dark{border-color:#888;
 }
 hr.star-dark:after{color:#888;background-color:#eee;
 }
-.bcolor{
-color:#000000;
-}
+
