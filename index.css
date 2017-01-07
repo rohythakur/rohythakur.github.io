@@ -1,4 +1,3 @@
-<style>
 @use postcss-nested;
 @use autoprefixer;
 @use postcss-simple-vars;
