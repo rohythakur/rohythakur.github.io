@@ -1,47 +1,87 @@
 <!DOCTYPE html>
 <html>
-<head>
-
-<!-- your webpage info goes here -->
-
-    <title>A sample Website</title>
-	
-	<meta name="author" content="rohyt" />
-	<meta name="description" content="" />
-
-<!-- you should always add your stylesheet (css) in the head tag so that it starts loading before the page html is being displayed -->	
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	
-</head>
-<body>
-
-<!-- webpage content goes here in the body -->
-
-	<div id="page">
-		<div id="logo">
-			<h1><a href="/" id="logoLink">My First Website</a></h1>
-		</div>
-		<div id="nav">
-			<ul>
-				<li><a href="#/home.html">Home</a></li>
-				
-			</ul>	
-		</div>
-		<div id="content">
-			<h2>Home</h2>
-			<p>
-				This is my first webpage! I was able to code all the HTML and CSS in order to make it. Watch out world of web design here I come!
-			</p>
-			<p> 
-				I can use my skills here to create websites for my business, my friends and family, my C.V, blog or articles. As well as any games or more experiment stuff (which is what the web is really all about). 
-			</p>
-			<img src="images/bebetter.png" alt="a sample image" style="width:304px;height:228px;">
-		</div>
-		<div id="footer">
-			<p>
-				Webpage made by <a href="/" target="_blank">[Rohyt]</a>
-			</p>
-		</div>
-	</div>
-</body>
+<header class="navbar navbar-default navbar-fixed-top" id="banner">
+  <div class="container"><a class="scrollable" href="#top"><img src="https://s22.postimg.org/ybxk2jjkh/11797824.jpg", alt="Rohyt | UI/UX Design and Development" title="qlip | UI/UX Design and Development"/></a>
+    <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+    <nav class="collapse navbar-collapse" id="navbar" role="navigation">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="scrollable" href="#top">About</a></li>
+        <li><a class="scrollable" href="#portfolio">Portfolio</a></li>
+        <li><a class="scrollable" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- end header--><a id="top" name="home"></a>
+<main>
+  <header>
+    <div class="intro-text">
+      <p>Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction;  devoted to functional programming and information architecture.</p>
+      <hr class="star-bright"/><span class="skills">Web Developer - User Experience Designer - Android Developer - Cyber Security</span>
+    </div><img src="https://s22.postimg.org/ybxk2jjkh/11797824.jpg", alt="A picture of Rohit at tilokinath temple mandi .", title="A picture of Rohit looking at  Victoria Bridge.")/>
+  </header>
+  <!-- Gallery Grid Section-->
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <hr class="star-dark"/>
+    <ul class="grid">
+      <li><img src="https://s16.postimg.org/hi82d5fph/rohyt.png" alt=""/></li>
+      <li><img src="https://s21.postimg.org/x8dpo2p3r/rohyt.png" alt=""/></li>
+</ul>
+  </section>
+  <!-- Contact Section-->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <hr class="star-dark"/>
+    <div>
+      <form id="contactForm" novalidate="">
+        <div class="form-item">
+          <label for="“name”">Name</label>
+          <input id="name" type="text" placeholder="Name" required=""/>
+        </div>
+        <div class="form-item">
+          <label for="“email”">Email Address</label>
+          <input id="email" type="email" placeholder="Email Address" required=""/>
+        </div>
+        <div class="form-item">
+          <label for="“phone”">Phone Number</label>
+          <input id="phone" type="tel" placeholder="Phone Number" required=""/>
+        </div>
+        <div class="form-item">
+          <label for="“message”">Message</label>
+          <textarea id="message" rows="5" placeholder="Message" required=""></textarea>
+        </div><br/>
+        <button type="submit">Send</button>
+      </form>
+      <div>
+        <p>Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.</p>
+        <p>I promise to reply A.S.A.P.</p>
+        <p>Note: No spam/soliciting pour moi, merci :)</p>
+      </div>
+    </div>
+  </section>
+  <!-- Scroll to Top Button (Only supposed to be visible on small and small screen sizes)-->
+  <div class="scroll-top"><a class="button scrollable" href="#top"><i class="fa fa-chevron-up"></i></a></div>
+</main>
+<!-- Footer-->
+<footer>
+  <div id="footer-above">
+    <div>
+      <h3>About this page</h3>
+      <p>Made with <i class="fa fa-fw fa-coffee"></i> and <i class="fa fa-fw fa-music"></i><br/>by <a href="www.rohythakur.github.io">Rohit Kumar</a>.</p>
+    </div>
+    <div>
+      <h3>Around the Web</h3>
+      <ul>
+        <li><a class="button social" href="https://in.linkedin.com/in/rohyt"><i class="fa fa-fw fa-linkedin"></i></a></li>
+        <li><a class="button social" href="http://github.com/rohythakur"><i class="fa fa-fw fa-github"></i></a></li>
+        <li><a class="button social" href="https://twitter.com/rohytx"><i class="fa fa-fw fa-twitter"></i></a></li>
+       </ul>
+    </div>
+  </div>
+  <div id="footer-below">qlip © 
+    <script>document.write(new Date().getFullYear())</script>. All Rights Reversed
+  </div>
+</footer>
 </html>
+<!-- <aside id="html5badge"><img src="http://www.w3.org/html/logo/badge/html5-badge-v-css3-graphics-semantics.png" width="38" height="170" alt="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics" title="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics"></aside>-->
