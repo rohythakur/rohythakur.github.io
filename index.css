@@ -44,10 +44,10 @@ footer #footer-above{
   margin:0 auto; 
 }
 #banner{
-  background-color:#722872 !important;
+  background-color:#4c4cff !important;
   height:80px;
   box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  border-color:#4c4cff;
+  border-color:#722872;
 }
 #banner .container{width:95%;max-width:1024px;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;
 }
