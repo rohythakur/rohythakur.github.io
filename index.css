@@ -1,3 +1,15 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<style>
+@use postcss-nested;
+@use autoprefixer;
+@use postcss-simple-vars;
+@use postcss-discard-comments;
+
+$fargglad:#003264;
+$morkfarg:##00004c;
+$morkgra:#888;
+
 body{
   margin:0;
   padding:0;
