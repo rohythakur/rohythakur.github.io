@@ -58,6 +58,7 @@ footer #footer-above{
 nav{
   font-size:13px;
   background:#4c4cff;
+  color:000000;
   -webkit-transition:all .3s;
   transition:all .3s;
 }
