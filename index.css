@@ -4,7 +4,7 @@
 @use postcss-discard-comments;
 
 $fargglad:#003264;
-$morkfarg:##00004c;
+$morkfarg:#00004c;
 $morkgra:#888;
 
 body{
